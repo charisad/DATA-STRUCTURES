@@ -14,15 +14,7 @@ public class FindOccurencesOfA {
         System.out.println(repeatedString(v,num));
     }
 //
-//    public static Long counter(String st){
-//        Long coun = 0L;
-//        for(int i=0;i< st.length();i++){
-//            if(st.charAt(i) == 'a'){
-//                coun++;
-//            }
-//        }
-//        return coun;
-//    }
+
    public static long repeatedString(String s, long n) {
         long num = n/s.length();
         long rem = n%s.length();
