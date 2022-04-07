@@ -7,20 +7,17 @@ public class BinarySearch {
     }
     public static int binarySearch (int[] arr,int value) {
         int lower = 0;
-        int upper = arr.length;
-        int middle=0;
-        while(lower < upper){
-         middle = lower + (upper - lower)/2;
+        int upper = arr.length-1;
+        while(lower <= upper){
+        int middle = lower + (upper - lower)/2;
             if(value == arr[middle]){
                 return middle;
-            }
-            if(  arr[middle] > value ){
+            }else if(  arr[middle] < value ){
                 lower = middle + 1;
             }else{
-                upper = middle ;
+                upper = middle-1 ;
             }
-
         }
-        return middle;
+        return -1; //+"not found";
     }
 }

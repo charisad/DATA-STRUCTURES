@@ -18,10 +18,7 @@ public class DiagonalDifference {
             add2 = add2+ arr.get(i).get(size -i-1);
 
         }
-
-        int absoluteValue =Math.abs( add1 - add2);
-
+        int absoluteValue = Math.abs( add1 - add2);
         return absoluteValue;
-
     }
 }
