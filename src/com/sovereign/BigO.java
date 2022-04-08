@@ -18,7 +18,6 @@ public class BigO {
             scanner.close();
 
             // Write your code here.
-
             NumberFormat nf = NumberFormat.getCurrencyInstance(Locale.FRANCE);
             NumberFormat nu = NumberFormat.getCurrencyInstance( Locale.US);
             NumberFormat nc = NumberFormat.getCurrencyInstance(Locale.CHINA);

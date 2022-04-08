@@ -3,7 +3,7 @@ package com.sovereign;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        System.out.println(binarySearch(new int[]{1,2,3,4,5},4));
+        System.out.println(binarySearch(new int[]{1,2,3,4,5,6,7,13,16},7));
     }
     public static int binarySearch (int[] arr,int value) {
         int lower = 0;
