@@ -4,11 +4,9 @@ public class ReverseString {
 
     public static void main(String[] args)
     {
-        String str= "Geeks", nstr="";
+        String str= "Madam", nstr="";
         char ch;
-
-        System.out.print("Original word: ");
-        System.out.println("Geeks"); //Example word
+ 
 
         for (int i=0; i<str.length(); i++)
         {
